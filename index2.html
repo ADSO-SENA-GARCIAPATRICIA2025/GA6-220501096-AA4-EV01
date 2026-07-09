@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Descubre las Aves de Colombia</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#home">
+      <img src="./img/logosena.png" alt="Logo" class="me-2" style="height: 40px;">
+      ADSO
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#regiones">Regiones</a></li>
+        <li class="nav-item"><a class="nav-link" href="#especies">Especies</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+    
+      </ul>
+      <a href="https://github.com/orgs/ADSO-SENA-GARCIAPATRICIA2025/repositories" class="btn btn-verde rounded-pill px-4" target="_blank">Visualizar Github</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="home" class="hero">
+  <div class="container">
+    <p class="eyebrow" style="color:#a8e0bb;">TUTORIAL DE AVES COLOMBIANAS</p>
+    <h1 >Descubre las Aves <BR>de Colombia</h1>
+    <p class="lead">Explora la extraordinaria biodiversidad de uno de los países con mayor número de especies de aves en el mundo.</p>
+    <div class="d-flex flex-wrap gap-3 justify-content-center">
+      <a href="#regiones" class="btn btn-verde btn-lg rounded-pill px-4">Explorar Regiones <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+</header>
+
+<!-- DIVERSIDAD -->
+<section class="py-5 my-4">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5">
+        <div class="diversidad-img" style="height:420px;">
+          <img src="./img/cont1.png" alt="Ave cardenal">
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <p class="eyebrow">Descubre las aves de Colombia</p>
+        <h2 class="mb-3 ">Descubre la increíble diversidad ornitológica de Colombia</h2>
+        <p class="text-muted">Desde los bosques nubosos andinos hasta las riberas de los ríos amazónicos, Colombia alberga una extraordinaria concentración de hábitats. Esta guía presenta las regiones, las especies y las historias de conservación dirigidas a estudiantes, viajeros y observadores de aves.</p>
+        <div class="row mt-4">
+          <div class="col-sm-6">
+            <ul class="list">
+              <li><img src="./img/icon1.png" alt="Ave 1"> Mas de 1900 especies de aves</li>
+              <li><img src="./img/icon2.png" alt="Ave 2"> Aves migratorias</li>
+              <li><img src="./img/icon3.png" alt="Ave 3"> Rutas de observación de aves</li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul class="list">
+              <li><img src="./img/icon4.png" alt="Ave 4"> Especies endémicas</li>
+              <li><img src="./img/icon5.png" alt="Ave 5"> Parques nacionales</li>
+              <li><img src="./img/icon6.png" alt="Ave 6"> Proyectos de conservación</li>
+            </ul>
+          </div>
+        </div>
+        <a href="#" class="btn btn-verde rounded-pill px-4 mt-2">Leer mas</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- REGIONES -->
+<section id="regiones" class="py-5 bg-crema">
+  <div class="container text-center">
+    <p class="eyebrow">Regiones naturales</p>
+    <h2>Explora las aves de cada región</h2>
+    <p class="text-muted mx-auto" style="max-width:650px;">Desde la Amazonía hasta la Región Insular, explora las seis regiones naturales de Colombia y descubre las especies que hacen del país el mayor refugio de aves del mundo.</p>
+
+    <div class="row g-4 mt-4 text-start">
+      <!-- Amazonía -->
+      <div class="col-md-6 col-lg-4">
+        <div class="region-card">
+          <img src="./img/cont1.png" alt="Amazonía">
+          <div class="body">
+            <div class="region-icon"><img src="./img/contamazonia.png" alt="Icono Amazonía"></div>
+            <h5>Amazonía</h5>
+            <p class="text-muted small">La selva tropical más grande de Colombia, hogar de miles de especies de aves y una de las mayores biodiversidades del planeta.</p>
+            <a href="#accordion-item-1"><b>Explora región</b> <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Andes -->
+      <div class="col-md-6 col-lg-4">
+        <div class="region-card">
+                    <img src="./img/cont2.png" alt="Andes">
+                    <div class="body">
+            <div class="region-icon"><img src="./img/contandes.png" alt="Icono Andes"></div>
+            <h5>Andes</h5>
+            <p class="text-muted small">Las montañas andinas albergan una gran variedad de colibríes, cóndores y numerosas especies endémicas adaptadas a diferentes altitudes.</p>
+            <a href="#accordion-item-2">Explora región <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Caribe -->
+      <div class="col-md-6 col-lg-4">
+        <div class="region-card">
+          <img src="./img/cont3.png" alt="Caribe">
+          <div class="body">
+            <div class="region-icon"><img src="./img/contcaribe.png" alt="Icono Caribe"></div>
+            <h5>Caribe</h5>
+            <p class="text-muted small">Una región de costas, manglares y humedales donde habitan flamencos, pelícanos y una amplia diversidad de aves acuáticas.</p>
+            <a href="#accordion-item-3">Explora región <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Pacifico -->
+      <div class="col-md-6 col-lg-4">
+        <div class="region-card">
+          <img src="./img/cont4.png" alt="Pacífico">
+          <div class="body">
+            <div class="region-icon"><img src="./img/contapacifico.png" alt="Icono Pacífico"></div>
+            <h5>Pacífico</h5>
+            <p class="text-muted small">Una de las zonas con mayor biodiversidad del mundo, reconocida por sus bosques tropicales y sus coloridas especies de aves.</p>
+            <a href="#accordion-item-4">Explora región <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Orinoquia -->
+      <div class="col-md-6 col-lg-4">
+        <div class="region-card">
+          <img src="./img/cont5.png" alt="Orinoquía">
+          <div class="body">
+            <div class="region-icon"><img src="./img/contorinoquia.png" alt="Icono Orinoquía"></div>
+            <h5>Orinoquía</h5>
+            <p class="text-muted small">Las extensas llanuras orientales ofrecen el hábitat ideal para garzas, ibis, aves rapaces y otras especies propias de las sabanas.</p>
+            <a href="#accordion-item-5">Explora región <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Insular -->
+      <div class="col-md-6 col-lg-4">
+        <div class="region-card">
+          <img src="./img/cont6.png" alt="Región Insular">
+          <div class="body">
+            <div class="region-icon"><img src="./img/containsular.png" alt="Icono Región Insular"></div>
+            <h5>Región Insular</h5>
+            <p class="text-muted small">Las islas colombianas son refugio de aves marinas y especies costeras que habitan entre playas, arrecifes y aguas cristalinas.</p>
+            <a href="#accordion-item-6">Explora región <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ESPECIES -->
+<section id="especies" class="py-5 my-3">
+  <div class="container text-center mb-4"id="accordion-item-1">
+    <p class="eyebrow">Especies</p>
+    <p class="text-muted mx-auto" style="max-width:650px;">Despliega cada región para conocer sus ecosistemas, especies más representativas, hábitats, estado de conservación y datos curiosos sobre las aves que la habitan.</p>
+  </div>
+
+  <div class="container">
+    <div class="accordion" id="accordionEspecies">
+
+<!-- Amazonica -->
+<div class="accordion-item" >
+  <h2 class="accordion-header">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#col1">
+      <img src="./img/iconr1.png" alt="Icono Región Amazónica" class="region-title-icon">
+      Región Amazónica
+      
+    </button>
+  </h2>
+
+  <div id="col1" class="accordion-collapse collapse show" data-bs-parent="#accordionEspecies">
+    <div class="accordion-body">
+
+      <div class="row g-3 align-items-stretch">
+
+        <!-- Clima y hábitat -->
+        <div class="col-lg-2 col-md-6">
+          <div class="info-box h-100">
+            <h6>Clima</h6>
+            <p class="small mb-4">
+              Tropical húmedo con altas precipitaciones durante todo el año.
+            </p>
+
+            <h6>Hábitat</h6>
+            <p class="small mb-0">
+              Selvas tropicales, ríos, humedales y bosques inundables.
+            </p>
+          </div>
+        </div>
+
+        <!-- Especies -->
+        <div class="col-lg-4 col-md-6">
+          <div class="info-box h-100">
+            <h6>Especies representativas</h6>
+
+            <ul class="mb-4">
+              <li>Guacamaya azul (Ara ararauna)</li>
+              <li>Tucán pico iris (Ramphastos sulfuratus)</li>
+              <li>Águila harpía (Harpia harpyja)</li>
+              <li>Hoatzin (Opisthocomus hoazin)</li>
+            </ul>
+
+            <h6>Estado de conservación</h6>
+
+            <p class="small mb-0">
+              La protección de los bosques amazónicos es fundamental para conservar su extraordinaria biodiversidad.
+            </p>
+          </div>
+        </div>
+
+        <!-- Imagen 1 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr11.png" alt="Guacamaya azul">
+          </div>
+        </div>
+
+        <!-- Imagen 2 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr12.png" alt="Águila harpía">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Andes -->
+<div class="accordion-item accordions-item" id="accordion-item-2">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col2">
+      <img src="./img/imgr2.png" alt="Icono Región de los Andes" class="region-title-icon">
+      Región de los Andes
+      
+    </button>
+  </h2>
+
+  <div id="col2" class="accordion-collapse collapse" data-bs-parent="#accordionEspecies">
+    <div class="accordion-body">
+      <div class="row g-3 align-items-stretch">
+        <!-- Clima y hábitat -->
+        <div class="col-lg-2 col-md-6">
+          <div class="info-box h-100">
+            <h6>Clima</h6>
+            <p class="small mb-4">
+              Templado y frío, con gran variación según la altitud.
+            </p>
+            <h6>Hábitat</h6>
+            <p class="small mb-0">
+              Bosques andinos, páramos, montañas y valles.
+            </p>
+          </div>
+        </div>
+
+        <!-- Especies -->
+        <div class="col-lg-4 col-md-6">
+          <div class="info-box h-100">
+            <h6>Especies representativas</h6>
+            <ul class="mb-4">
+              <li>Cóndor de los Andes (Vultur gryphus)</li>
+              <li>Colibrí chillón (Colibri coruscans)</li>
+              <li>Tororoi de Cundinamarca (Grallaria kaestneri)</li>
+              <li>Tangara multicolor (Chlorochrysa nitidissima)</li>
+            </ul>
+            <h6>Estado de conservación</h6>
+            <p class="small mb-0">
+              Varias especies son endémicas y dependen de la conservación de los bosques altoandinos.
+            </p>
+          </div>
+        </div>
+
+        <!-- Imagen 1 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr22.png" alt="Tangara multicolor">
+          </div>
+        </div>
+
+        <!-- Imagen 2 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr21.png" alt="Colibrí chillón">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Caribe -->
+<div class="accordion-item accordions-item" id="accordion-item-3">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col3">
+      <img src="./img/iconr3.png" alt="Icono Region del Caribe" class="region-title-icon">
+      Region del Caribe
+      
+    </button>
+  </h2>
+
+  <div id="col3" class="accordion-collapse collapse" data-bs-parent="#accordionEspecies">
+    <div class="accordion-body">
+      <div class="row g-3 align-items-stretch">
+        <!-- Clima y hábitat -->
+        <div class="col-lg-2 col-md-6">
+          <div class="info-box h-100">
+            <h6>Clima</h6>
+            <p class="small mb-4">
+              Cálido tropical con temporadas secas y lluviosas.
+            </p>
+            <h6>Hábitat</h6>
+            <p class="small mb-0">
+              Manglares, playas, ciénagas, bosques secos y humedales.
+            </p>
+          </div>
+        </div>
+
+        <!-- Especies -->
+        <div class="col-lg-4 col-md-6">
+          <div class="info-box h-100">
+            <h6>Especies representativas</h6>
+            <ul class="mb-4">
+              <li>Flamenco americano (Phoenicopterus ruber)</li>
+              <li>Pelícano pardo (Pelecanus occidentalis)</li>
+              <li>Garza blanca (Ardea alba)</li>
+              <li>Ibis escarlata (Eudocimus ruber)</li>
+            </ul>
+            <h6>Estado de conservación</h6>
+            <p class="small mb-0">
+              Los manglares y humedales son esenciales para muchas aves migratorias.
+            </p>
+          </div>
+        </div>
+
+        <!-- Imagen 1 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr31.png" alt="Flamenco americano">
+          </div>
+        </div>
+
+        <!-- Imagen 2 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr32.png" alt="Pelícano pardo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pacifico -->
+<div class="accordion-item accordions-item" id="accordion-item-4">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col4">
+      <img src="./img/iconr4.png" alt="Icono Region del Pacifico" class="region-title-icon">
+      Region del Pacifico
+      
+    </button>
+  </h2>
+
+  <div id="col4" class="accordion-collapse collapse" data-bs-parent="#accordionEspecies">
+    <div class="accordion-body">
+      <div class="row g-3 align-items-stretch">
+        <!-- Clima y hábitat -->
+        <div class="col-lg-2 col-md-6">
+          <div class="info-box h-100">
+            <h6>Clima</h6>
+            <p class="small mb-4">
+              Muy húmedo, con una de las mayores precipitaciones del mundo.
+            </p>
+            <h6>Hábitat</h6>
+            <p class="small mb-0">
+              Bosques tropicales, manglares y costas del océano Pacífico.
+            </p>
+          </div>
+        </div>
+
+        <!-- Especies -->
+        <div class="col-lg-4 col-md-6">
+          <div class="info-box h-100">
+            <h6>Especies representativas</h6>
+            <ul class="mb-4">
+              <li>Tucán del Chocó (Ramphastos brevis)</li>
+              <li>Loro del Chocó (Amazona mercenaria)</li>
+              <li>Martín pescador amazónico</li>
+              <li>Tangara del Chocó (Tangara johannae)</li>
+            </ul>
+            <h6>Estado de conservación</h6>
+            <p class="small mb-0">
+              La conservación de los bosques del Chocó es clave para proteger numerosas especies endémicas.
+            </p>
+          </div>
+        </div>
+
+        <!-- Imagen 1 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr41.png" alt="Tangara del Chocó">
+          </div>
+        </div>
+
+        <!-- Imagen 2 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr42.png" alt="Loro del Chocó">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Orinoquia -->
+<div class="accordion-item accordions-item" id="accordion-item-5">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col5">
+      <img src="./img/imgr5.png" alt="Icono Region Orinoquía" class="region-title-icon">
+      Region Orinoquía
+    </button>
+  </h2>
+
+  <div id="col5" class="accordion-collapse collapse" data-bs-parent="#accordionEspecies">
+    <div class="accordion-body">
+      <div class="row g-3 align-items-stretch">
+        <!-- Clima y hábitat -->
+        <div class="col-lg-2 col-md-6">
+          <div class="info-box h-100">
+            <h6>Clima</h6>
+            <p class="small mb-4">
+              Tropical de sabana con estaciones seca y lluviosa bien definidas.
+            </p>
+            <h6>Hábitat</h6>
+            <p class="small mb-0">
+              Llanuras, sabanas inundables, ríos y bosques de galería.
+            </p>
+          </div>
+        </div>
+
+        <!-- Especies -->
+        <div class="col-lg-4 col-md-6">
+          <div class="info-box h-100">
+            <h6>Especies representativas</h6>
+            <ul class="mb-4">
+              <li>Corocora roja (Eudocimus ruber)</li>
+              <li>Garza real (Ardea cocoi)</li>
+              <li>Carrao (Aramus guarauna)</li>
+              <li>Águila pescadora (Pandion haliaetus)</li>
+            </ul>
+            <h6>Estado de conservación</h6>
+            <p class="small mb-0">
+              Los humedales y sabanas son fundamentales para la reproducción de numerosas especies.
+            </p>
+          </div>
+        </div>
+
+        <!-- Imagen 1 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr51.png" alt="Garza real">
+          </div>
+        </div>
+
+        <!-- Imagen 2 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr52.png" alt="Águila pescadora">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Insular -->
+<div class="accordion-item accordions-item" id="accordion-item-6">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#col6">
+      <img src="./img/containsular.png" alt="Icono Region Insular" class="region-title-icon">
+      Region Insular
+    </button>
+  </h2>
+
+  <div id="col6" class="accordion-collapse collapse" data-bs-parent="#accordionEspecies">
+    <div class="accordion-body">
+      <div class="row g-3 align-items-stretch">
+        <!-- Clima y hábitat -->
+        <div class="col-lg-2 col-md-6">
+          <div class="info-box h-100">
+            <h6>Clima</h6>
+            <p class="small mb-4">
+              Tropical marítimo con temperaturas cálidas durante todo el año.
+            </p>
+            <h6>Hábitat</h6>
+            <p class="small mb-0">
+              Arrecifes coralinos, playas, acantilados e islas oceánicas.
+            </p>
+          </div>
+        </div>
+
+        <!-- Especies -->
+        <div class="col-lg-4 col-md-6">
+          <div class="info-box h-100">
+            <h6>Especies representativas</h6>
+            <ul class="mb-4">
+              <li>Piquero café (Sula leucogaster)</li>
+              <li>Rabihorcado magnífico (Fregata magnificens)</li>
+              <li>Gaviota reidora (Leucophaeus atricilla)</li>
+              <li>Charrán real (Thalasseus maximus)</li>
+            </ul>
+            <h6>Estado de conservación</h6>
+            <p class="small mb-0">
+              Los ecosistemas marinos protegidos son esenciales para la reproducción de aves costeras.
+            </p>
+          </div>
+        </div>
+
+        <!-- Imagen 1 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr61.png" alt="Piquero café">
+          </div>
+        </div>
+
+        <!-- Imagen 2 -->
+        <div class="col-lg-3 col-6">
+          <div class="especie-img">
+            <img src="./img/imgr62.png" alt="Rabihorcado magnífico">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria" class="py-5">
+  <div class="container text-center mb-5">
+    <p class="eyebrow">GALERIA</p>
+    <h2>Colores de la biodiversidad</h2>
+  </div>
+  <div class="container">
+    <div class="gallery-grid">
+     
+      <div class="tall">
+        <img src="./img/imgr42.png" alt="Loro del Chocó">
+      </div>
+     
+      <div>
+        <img src="./img/cont4.png" alt="Martín pescador">
+      </div>
+    
+      <div class="wide">
+        <img src="./img/cont1.png" alt="Tucán">
+      </div>
+   
+      <div>
+        <img src="./img/cont1.png" alt="Tucanes">
+      </div>
+
+      <div>
+        <img src="./img/cont2.png" alt="Cóndor">
+      </div>
+      <div class="tall">
+        <img src="./img/cont3.png" alt="Ibis escarlata">
+      </div>
+    
+      <div>
+        <img src="./img/andes.webp" alt="Tangara del Chocó">
+      </div>
+
+      <div>
+        <img src="./img/cont3.png" alt="Garza">
+      </div>
+    
+      <div>
+        <img src="./img/aveHero.jpg" alt="Ave multicolor">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer py-5 mt-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <h5 class="d-flex align-items-center mb-3">
+          <img src="./img/logosena.png" alt="Logo SENA" class="me-2" style="height: 30px; "> Adso SENA
+        </h5>
+        <p class="small opacity-75">
+          Evidencia Fundamentos en la implementación de componentes front-end HTML, CSS, JS.
+        </p>
+      </div>
+      <div class="col-lg-4">
+        <h6 class="mb-3">Navegacion</h6>
+        <div class="row">
+          <div class="col-6">
+            <a href="#home">Home</a>
+            <a href="#regiones">Regiones</a>
+          </div>
+          <div class="col-6">
+            <a href="#especies">Especies</a>
+            <a href="#galeria">Galeria</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <h6 class="mb-3">Social</h6>
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-book"></i></a>
+          <a href="#"><i class="bi bi-heart"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-4 mb-3" style="border-color: rgba(255,255,255,.1);">
+    <div class="text-center small opacity-50">
+      © 2026 EVIDENCIA GA6-220501096-AA4-EV01
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
